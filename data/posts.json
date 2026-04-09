@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "হজ্জ গাইড: কুরআন ও সুন্নাহ",
+    "image": "assets/img/hajj.jpg",
+    "category": "hajj",
+    "date": "2026-04-09",
+    "content": "হজ্জ ইসলামের একটি গুরুত্বপূর্ণ স্তম্ভ..."
+  },
+  {
+    "id": 2,
+    "title": "যাকাত: গুরুত্ব ও বিধান",
+    "image": "assets/img/zakat.jpg",
+    "category": "zakat",
+    "date": "2026-04-08",
+    "content": "যাকাত ইসলামের একটি ফরজ ইবাদত..."
+  }
+]
