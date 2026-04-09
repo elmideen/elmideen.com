@@ -1,14 +1,20 @@
 <header class="bg-white shadow-sm">
-  <div class="container d-flex justify-content-between align-items-center py-3">
-    
-    <h3 class="text-success m-0">ইলমি দ্বীন</h3>
+  <div class="container py-3 d-flex justify-content-between align-items-center">
 
+    <h3 class="text-success m-0">ইলমি দ্বীন</h3>
     <nav>
       <a href="index.html" class="mx-2">হোম</a>
       <a href="#" class="mx-2">কুরআন</a>
       <a href="#" class="mx-2">হাদিস</a>
       <a href="#" class="mx-2">ডাউনলোড</a>
     </nav>
+
+    <div class="d-flex">
+      <input type="text" id="searchInput" class="form-control me-2" placeholder="Search...">
+      <button onclick="searchPost()" class="btn btn-success">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
 
   </div>
 </header>
