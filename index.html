@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <title>ইলমি দ্বীন</title>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -18,18 +20,67 @@
 <!-- Header -->
 <div id="header"></div>
 
+<!-- Top Banner -->
+<section class="top-banner py-3 bg-light">
+  <div class="container d-flex justify-content-between align-items-center flex-wrap">
+    
+    <img src="assets/img/logo.png" height="60">
+
+    <div class="bg-warning p-3 text-dark fw-bold">
+      📹 Zoom ক্লাস প্রতিদিন রাত ৮:৩০
+    </div>
+
+  </div>
+</section>
+
+<!-- Navbar -->
+<section class="menu-bar bg-white border-top border-bottom">
+  <div class="container py-2">
+    <a class="me-3 fw-bold text-danger">হোম</a>
+    <a class="me-3">কুরআন</a>
+    <a class="me-3">হাদিস</a>
+    <a class="me-3">শিক্ষা</a>
+    <a class="me-3">ডাউনলোড</a>
+  </div>
+</section>
+
+<!-- Main Content -->
 <div class="container mt-4">
   <div class="row">
 
-    <!-- Main Content -->
+    <!-- Left Content -->
     <div class="col-md-8">
 
-      <div class="card mb-3">
+      <!-- Featured Post -->
+      <div class="card mb-4 shadow-sm">
         <img src="assets/img/hajj.jpg" class="card-img-top">
         <div class="card-body">
-          <h5>হজ্জ গাইড: কুরআন ও সুন্নাহ</h5>
-          <p>হজ্জ সম্পর্কিত গুরুত্বপূর্ণ আলোচনা...</p>
+          <h4>হজ্জ গাইড: কুরআন ও সুন্নাহ মোতাবেক</h4>
+          <p>হজ্জ সম্পর্কে বিস্তারিত আলোচনা এবং নির্দেশনা...</p>
         </div>
+      </div>
+
+      <!-- News List -->
+      <div class="row">
+
+        <div class="col-md-6">
+          <div class="card mb-3">
+            <img src="assets/img/zakat.jpg" class="card-img-top">
+            <div class="card-body">
+              <h6>যাকাত: গুরুত্ব ও বিধান</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card mb-3">
+            <img src="assets/img/ramadan.jpg" class="card-img-top">
+            <div class="card-body">
+              <h6>রামাদান প্রস্তুতি</h6>
+            </div>
+          </div>
+        </div>
+
       </div>
 
     </div>
@@ -37,10 +88,26 @@
     <!-- Sidebar -->
     <div class="col-md-4">
       <div id="sidebar"></div>
+
+      <!-- Extra Widget -->
+      <div class="card mt-3">
+        <img src="assets/img/island.jpg" class="card-img-top">
+        <div class="card-body">
+          <h6>সালাত: সর্বোত্তম ইবাদত</h6>
+        </div>
+      </div>
+
     </div>
 
   </div>
 </div>
+
+<!-- CTA Section -->
+<section class="bg-light mt-5 py-4 text-center">
+  <h5>📢 প্রতিদিন রাত ৮:৩০ মিনিটে অনলাইন ক্লাস</h5>
+  <button class="btn btn-success mt-2">Zoom লিংক</button>
+  <button class="btn btn-outline-success mt-2">WhatsApp গ্রুপ</button>
+</section>
 
 <!-- Footer -->
 <div id="footer"></div>
